@@ -10,6 +10,7 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "@ulixee/hero": "^2.0.0-alpha.30"
+    "http": "^0.0.1-security",
+    "http-proxy": "^1.18.1"
   }
 }
