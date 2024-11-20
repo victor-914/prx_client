@@ -6,10 +6,7 @@ try {
     (async () => {
         const hero = new Hero({
           showChrome:true,
-          connectionToCore: {
-              host: `127.0.0.1:1818`,
-            },
-            upstreamProxyUrl:"http://127.0.0.1:9080"
+            // upstreamProxyUrl:"http://127.0.0.1:9080"
         });
         await hero.goto('https://whoer.net/');
       
